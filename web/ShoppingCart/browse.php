@@ -10,13 +10,17 @@
     </head>
     <body>
         <form method="post" action="view.php">
-            <p>Please select from the following:</p><br><br><br>
+            <h1>Please, Browse at you're leasure!</h1></br>
 
             <label>
-                <input type="checkbox" name="items[]" value="Cup-Noodles" >
-                <i></i> <img src="images/Cup-Noodles.jpg" alt="Cup-Noodles" style="width:250px;height:250px;">
+                <input type="checkbox" name="items[]" value="Cup_Noodles" >
+                <i></i> <img src="images/Cup_Noodles.jpg" alt="Cup_Noodles" >
             </label>
 
+            <label>
+                <input type="checkbox" name="items[]" value="Portal_Device" >
+                <i></i> <img src="images/Portal_Device.jpg" alt="Portal_Device" >
+            </label>
  
             <input type="submit" name="submit" value="View cart">
         </form>
