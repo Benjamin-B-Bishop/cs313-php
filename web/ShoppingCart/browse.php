@@ -14,7 +14,7 @@
 
             <label>
                 <input type="checkbox" name="items[]" value="Cup_Noodles" >
-                <i></i> <img src="images/Cup_Noodles.jpg" alt="Cup_Noodles" style="width:634px;height:748px;">
+                <i></i> <img src="images/Cup_Noodles.jpg" alt="Cup_Noodles" style="width:422px;height:498px;">
             </label>
 
             <label>
