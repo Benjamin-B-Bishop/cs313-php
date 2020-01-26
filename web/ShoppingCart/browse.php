@@ -20,7 +20,7 @@ $_SESSION["Portal_Device"] = "FALSE";
             </label><br>
 
             <label>
-                <input type="checkbox" name="items[]" value="Portal_Device" >
+                <input type="checkbox" name="Portal_Device" value="Portal_Device" >
                 <i></i> <img src="images/Portal_Device.jpg" alt="Portal_Device" style="width:512px;height:307px;">
             </label><br>
  
