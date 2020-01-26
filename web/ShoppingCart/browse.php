@@ -1,6 +1,6 @@
 <?php
 session_start(); // start up your PHP session! 
-$_SESSION["Cup_Noodles"] = FALSE;
+$_SESSION["Cup_Noodles"] = "FALSE";
 ?>
  <!DOCTYPE html>
 <html>
@@ -8,7 +8,7 @@ $_SESSION["Cup_Noodles"] = FALSE;
         <title>Browse</title>        
         <script>
             function addToCart($item, $price) {
-                $_SESSION["&item"] = TRUE;
+                $_SESSION["&item"] = "TRUE";
                 print_r($_SESSION);
             }
         </script>
