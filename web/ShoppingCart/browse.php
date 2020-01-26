@@ -14,18 +14,18 @@ $_SESSION["Cup_Noodles"] = FALSE;
         </script>
     </head>
     <body>
-        <form method="post" action="view.php">
+        <form method="post" action="checkOut.php">
             <h1>Please, Browse at you're leisure!</h1></br>
 
             <label>
                 <input type="checkbox" name="items[]" value="Cup_Noodles"  onclick="addToCart('Cup_Noodles', '500')">
                 <i></i> <img src="images/Cup_Noodles.jpg" alt="Cup_Noodles" style="width:422px;height:498px;">
-            </label>
+            </label><br>
 
             <label>
                 <input type="checkbox" name="items[]" value="Portal_Device" >
                 <i></i> <img src="images/Portal_Device.jpg" alt="Portal_Device" style="width:512px;height:307px;">
-            </label>
+            </label><br>
  
             <input type="submit" name="submit" value="View cart">
         </form>
