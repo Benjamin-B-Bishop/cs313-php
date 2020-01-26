@@ -14,7 +14,7 @@ $gun = htmlspecialchars($_POST["Portal_Device"]);
 
 	<p>Items in Cart <br>
         <?=$cup ?> <br>
-        <?=$cup ?> <br> 
+        <?=$gun ?> <br> 
     </p>
 
 </body>
