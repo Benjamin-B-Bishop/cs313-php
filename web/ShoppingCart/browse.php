@@ -1,17 +1,13 @@
 <?php
 session_start(); // start up your PHP session! 
 $_SESSION["Cup_Noodles"] = "FALSE";
+$_SESSION["Portal_Device"] = "FALSE":
 ?>
  <!DOCTYPE html>
 <html>
     <head>
         <title>Browse</title>        
-        <script>
-            function addToCart($item, $price) {
-                $_SESSION["&item"] = "TRUE";
-                print_r($_SESSION);
-            }
-        </script>
+
     </head>
     <body>
         <form method="post" action="checkOut.php">
@@ -27,7 +23,7 @@ $_SESSION["Cup_Noodles"] = "FALSE";
                 <i></i> <img src="images/Portal_Device.jpg" alt="Portal_Device" style="width:512px;height:307px;">
             </label><br>
  
-            <input type="submit" name="submit" value="View cart">
+            <input type="submit" name="submit" value="Check Out">
         </form>
     </body>
 </html>

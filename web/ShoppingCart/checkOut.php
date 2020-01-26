@@ -1,6 +1,6 @@
 <?php
-$name = htmlspecialchars($_POST["Cup_Noodles"]);
-
+$cup = htmlspecialchars($_POST["Cup_Noodles"]);
+$gun = htmlspecialchars($_POST["Portal_Device"]);
 
 ?>
 <!DOCTYPE html>
@@ -12,10 +12,11 @@ $name = htmlspecialchars($_POST["Cup_Noodles"]);
 <body>
 	<h1>Submission Results</h1>
 
-	<p>Your name is: <?=$name ?></p>
-
+	<p>Items in Cart <br>
+        <?=$cup ?> <br>
+        <?=$cup ?> <br> 
+    </p>
 
 </body>
-
 
 </html>
