@@ -1,7 +1,8 @@
 <?php
 session_start(); // start up your PHP session! 
 $_SESSION["Cup_Noodles"] = "FALSE";
-$_SESSION["Portal_Device"] = "FALSE":
+$_SESSION["Portal_Device"] = "FALSE";
+
 ?>
  <!DOCTYPE html>
 <html>
