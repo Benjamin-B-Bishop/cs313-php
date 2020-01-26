@@ -18,7 +18,7 @@ $_SESSION["Cup_Noodles"] = "FALSE";
             <h1>Please, Browse at you're leisure!</h1></br>
 
             <label>
-                <input type="checkbox" name="Cup_Noodles" value="Cup_Noodles"  onclick="addToCart('Cup_Noodles', '500')">
+                <input type="checkbox" name="Cup_Noodles" value="Cup_Noodles" >
                 <i></i> <img src="images/Cup_Noodles.jpg" alt="Cup_Noodles" style="width:422px;height:498px;">
             </label><br>
 
