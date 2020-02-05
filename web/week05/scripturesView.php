@@ -35,6 +35,7 @@ catch (PDOException $ex)
 <h1>Scripture Resources</h1>
 
 <?php
+echo 'testing 1 2 3';
 foreach ($db->query('SELECT book, chapter, verse FROM scriptures ' ) as $row)
 {
   echo 'Book: ' . $row['book'];
