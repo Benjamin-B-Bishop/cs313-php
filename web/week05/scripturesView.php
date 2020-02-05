@@ -35,11 +35,11 @@ catch (PDOException $ex)
 
 <?php
 echo 'testing 1 2 3';
-foreach ($db->query('SELECT book, chapter, verse FROM scriptures ' ) as $row)
+foreach ($db->query('SELECT book FROM scripture' ) as $row)
 {
+  echo  'inside';
   echo 'Book: ' . $row['book'];
-  echo ' - '    . $row['chapter'];
-  echo ' : '    . $row['verse'] . ' ';
+
   echo '<br/>';
 }  
 ?>
