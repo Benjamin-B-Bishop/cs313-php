@@ -21,7 +21,6 @@ catch (PDOException $ex)
   die();
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
