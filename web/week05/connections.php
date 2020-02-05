@@ -1,7 +1,12 @@
 <?php
+
+function get_db() {
+    $db = NULL;
+    
 try
 {
-  $dbUrl = getenv('DATABASE_URL');
+  $dbUrl = 'postgres://:DB-0007-@localhost:5432/scripture_db';
+  // $dbUrl = "postgres://ta_user:ta_pass@localhost:5432/scripture_ta";
 
   $dbOpts = parse_url($dbUrl);
 
@@ -22,11 +27,9 @@ catch (PDOException $ex)
 }
 
 
-foreach ($db->query('SELECT username, password FROM note_user') as $row)
-{
-  echo 'user: ' . $row['username'];
-  echo ' password: ' . $row['password'];
-  echo '<br/>';
+return $db;
 }
 
 ?>
+
+
