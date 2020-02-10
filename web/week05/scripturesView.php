@@ -2,6 +2,11 @@
 require "connections.php";
 $db = get_db();
 
+$query = 'SELECT id, book FROM scripture');
+$stmt  = $db->prepare($query);
+$stmt -> execute();
+$scriptures = $stmt-fetchALL(PDO::FETCH_ASSOC);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,16 +20,18 @@ $db = get_db();
 
 <h1>Scripture Resources</h1>
 
-<?php
-echo 'testing 1 2 3';
-foreach ($db->query('SELECT book FROM scripture' ) as $row)
-{
-  echo  'inside';
-  echo 'Book: ' . $row['book'];
+<ul>
 
-  echo '<br/>';
+<?php
+foreach ($scriptures as $scripture)
+{
+  $id   = $scripture['id'];
+  $book = $scripture['book'];
+  echo "<li><p>$book<p></li>";
 }  
 ?>
+
+</ul>
 
 </body>
 </html>
