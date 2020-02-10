@@ -5,8 +5,7 @@ function get_db() {
     
 try
 {
-  $dbUrl = 'postgres://:DB-0007-@localhost:5433/scripture_db';
-//$dbUrl = "postgres://ta_user:ta_pass@localhost:5432/scripture_ta";
+  $dbUrl = getenv('DATABASE_URL');
 
   $dbOpts = parse_url($dbUrl);
 
