@@ -19,15 +19,7 @@ $scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 
 <ul>
 
-<?php
-foreach ($scriptures as $scripture)
-{
-    $id   = $scripture['id'];
-    $book = $scripture['book'];
 
-    echo "<li><p> $book </p></li>";
-}  
-?>
 
 </ul> 
 
