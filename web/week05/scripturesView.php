@@ -10,7 +10,7 @@ $scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 ?>
 <!DOCTYPE html>
 <html>
-<head>>
+<head>
     <title>Scripture Resources</title>
 </head>
 <body>
