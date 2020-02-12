@@ -1,5 +1,5 @@
 <?php
-require ('connections.php');
+require "connections.php";
 $db = get_db();
 
 $stmt  = $db->prepare("SELECT id, book FROM scripture") ;
