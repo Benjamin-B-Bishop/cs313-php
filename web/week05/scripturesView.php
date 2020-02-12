@@ -5,7 +5,7 @@ $db = get_db();
 $query = 'SELECT id, book FROM scripture';
 $stmt  = $db->prepare($query);
 if (!$stmt->execute()) {
-    echo "Execute failed: (" . $stmt->errno . ") " . $stmt->error;
+    echo "Execute failed: (" ;
 }
 $scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 
