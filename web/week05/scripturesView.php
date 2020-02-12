@@ -2,7 +2,10 @@
 require ('connections.php');
 $db = get_db();
 
-
+$query = 'SELECT id, book FROM scripture';
+$stmt  = $db->prepare($query);
+$stmt -> execute();
+$scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 
 ?>
 <!DOCTYPE html>
