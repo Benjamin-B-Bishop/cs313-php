@@ -3,6 +3,7 @@ require ('connections.php');
 $db = get_db();
 
 $query = 'SELECT id, book FROM scripture';
+$stmt  = $db->prepare($query);
 
 
 ?>
