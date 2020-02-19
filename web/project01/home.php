@@ -12,7 +12,9 @@
 <head>
     <title>Caracter Info</title>
 </head>
-<body>
+<body {
+    background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
+}>
 
 <h1>Select a Character</h1>
 
