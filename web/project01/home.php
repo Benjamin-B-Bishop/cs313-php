@@ -10,11 +10,11 @@ $scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Scripture Resources</title>
+    <title>Caracter Info</title>
 </head>
 <body>
 
-<h1>Scripture Resources</h1>
+<h1>Select a Character</h1>
 
 <ul>
 
