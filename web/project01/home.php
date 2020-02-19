@@ -1,10 +1,10 @@
 <?php
-require "C:\Users\BaldBen\cs313-php\web\week05\connections.php";
-$db = get_db();
+// require "C:\Users\BaldBen\cs313-php\web\week05\connections.php";
+// $db = get_db();
 
-$stmt  = $db->prepare("SELECT id, c_name FROM player") ;
-$stmt->execute();
-$scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
+// $stmt  = $db->prepare("SELECT id, c_name FROM player") ;
+// $stmt->execute();
+// $scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 
 ?>
 <!DOCTYPE html>
