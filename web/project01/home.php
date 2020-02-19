@@ -1,10 +1,10 @@
 <?php
-require "C:\Users\BaldBen\cs313-php\web\week05\connections.php";
-$db = get_db();
+// require "C:\Users\BaldBen\cs313-php\web\week05\connections.php";
+// $db = get_db();
 
-$stmt  = $db->prepare("SELECT id, book FROM scripture") ;
-$stmt->execute();
-$scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
+// $stmt  = $db->prepare("SELECT id, book FROM scripture") ;
+// $stmt->execute();
+// $scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 
 ?>
 <!DOCTYPE html>
@@ -19,12 +19,12 @@ $scriptures = $stmt->fetchALL(PDO::FETCH_ASSOC);
 <ul>
 
 <?php
-foreach ($scriptures as $scripture)
-{
-    $book = $scripture['book'];
+// foreach ($scriptures as $scripture)
+// {
+//     $book = $scripture['book'];
 
-    echo "<li><p> $book </p></li>";
-}  
+//     echo "<li><p> $book </p></li>";
+// }  
 ?>
 
 </ul> 
