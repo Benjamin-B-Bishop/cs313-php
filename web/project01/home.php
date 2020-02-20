@@ -9,12 +9,16 @@
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Caracter Info</title>
+<style>
+#grad1 {
+  height: 100% ;
+  background-color: gray; /* For browsers that do not support gradients */
+  background-image: linear-gradient(white, lightgray); /* Standard syntax (must be last) */
+}
+</style>
+   <title>Characters</title>
 </head>
-<body {
-    background-image : url(http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62);
-}>
+<body id="grad1">
 
 <h1>Select a Character</h1>
 
