@@ -13,7 +13,7 @@ $players = $stmt->fetchALL(PDO::FETCH_ASSOC);
 #grad1 {
   height: 100% ;
   background-color: gray; /* For browsers that do not support gradients */
-  background-image: linear-gradient(white, lightgray); /* Standard syntax (must be last) */
+  background-image: linear-gradient(white, lightgray); /* Standard syntax (mus  t be last) */
 }
 </style>
    <title>Characters</title>
