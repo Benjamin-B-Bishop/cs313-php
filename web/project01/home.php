@@ -25,13 +25,17 @@ $players = $stmt->fetchALL(PDO::FETCH_ASSOC);
 <ul>
 
 <?php
-foreach ($players as $player)
-{
-    $c_name = $player['c_name'];
+// foreach ($players as $player)
+// {
+//     $c_name = $player['c_name'];
 
-    echo "<li><p> $c_name </p></li>";
-}  
+//     echo "<li><p> $c_name </p></li>";
+// }  
 ?>
+
+<h1>Create a new Character</h1>
+
+
 
 </ul> 
 
