@@ -1,7 +1,7 @@
 CREATE DATABASE DnD;
 
 CREATE TABLE player
-( ID              SERIAL NOT NULL
+( id              SERIAL NOT NULL
 , c_name      VARCHAR(100) NOT NULL
 , stat_str  INT
 , stat_dex  INT 
